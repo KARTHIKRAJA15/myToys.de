@@ -1,0 +1,5 @@
+myToys\de\stepdefinition\TestRunner.class
+myToys\de\resource\CommonActions.class
+myToys\de\stepdefinition\Hooks.class
+myToys\de\repository\ProductPurchasePage.class
+myToys\de\stepdefinition\ProductPurchaseSteps.class

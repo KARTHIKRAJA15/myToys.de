@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: myToys.de.stepdefinition.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 32.741 s - in myToys.de.stepdefinition.TestRunner

@@ -1,0 +1,102 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 10423367900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user launch url",
+            "match": {
+              "location": "ProductPurchaseSteps.user_launch_url()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1842900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeLaunch()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "",
+        "description": "",
+        "id": ";",
+        "after": [
+          {
+            "result": {
+              "duration": 414900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterLaunch()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6648016200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user search product",
+            "match": {
+              "location": "ProductPurchaseSteps.user_search_product()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 10406706400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user select product",
+            "match": {
+              "location": "ProductPurchaseSteps.user_select_product()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5026745700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user add in the cart",
+            "match": {
+              "location": "ProductPurchaseSteps.user_add_in_the_cart()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "",
+    "description": "",
+    "id": "",
+    "keyword": "Feature",
+    "uri": "src/test/resources/FEATURE/productpurchase.feature",
+    "tags": []
+  }
+]
